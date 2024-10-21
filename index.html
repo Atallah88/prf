@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  border: 2px solid #ccc;
+  background-color: Lavender;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .container {
+      text-align: center;
+  }
+  .container img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+
+
+
+
+
+
+body{
+background-color:BurlyWood;
+}
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: LemonChiffon;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+
+
+#mySidenav a {
+  position: absolute;
+  right: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  right: 0;
+}
+
+#about {
+  top: 20px;
+  background-color: Purple;
+ }
+#blog {
+  top: 80px;
+  background-color: black;
+}
+
+#projects {
+  top: 140px;
+  background-color: red;
+}
+
+#contact {
+  top: 200px;
+  background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<container>
+<img src="https://i.pinimg.com/originals/86/74/8e/86748eb7583b8c841980075369d8a643.gif" alt="Nature" style="width:100%;">
+<div class="text-block">
+<h4></h4>
+<p></p>
+</div>
+</div>
+</contatiner>
+<div id="mySidenav" class="sidenav">
+<a href="https://www.instagram.com/atallh_d/?hl=ar" id="about"></a>
+<a href="https://www.tiktok.com/@ia_di8" id="blog"></a>
+<a href="https://www.youtube.com/@pac_ad994" id="projects"></a>
+<a href="https://snapchat.com/t/kJqbvNhK" id="contact"></a>
+</div>
+<hr>
+<br>
+
+<div class="container">
+<img src="https://i.pinimg.com/control/564x/60/53/45/605345384216a2fd253645e8bb791d9b.jpg" alt="Avatar" style="width:90px">
+<p><p><span>@User:</span> </p> </p>
+<p><strong>A Computer Science student is learning web design to assist others with online stores.</strong></p>
+<p><small>22.Oct.2024<small>
+<br>
+</div>
+</body>
+</html> 
